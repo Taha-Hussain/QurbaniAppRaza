@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/background"
+    android:gravity="center">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="1" >
+
+
+
+                <TableRow>
+
+                    <GridLayout
+                        android:id="@+id/gridLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:columnCount="2"
+                        >
+
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_gravity="left"
+                            android:src="@drawable/dua"
+                            android:layout_width="89dp"
+                            android:layout_height="142dp" />
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:padding="3dip"
+                            android:text="              DUA"
+                            android:textColor="#FFFFFF"
+                            android:textSize="40dp" />
+
+                    </GridLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView2"
+                            android:background="@drawable/line"/>
+                    </GridLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dip"
+                        android:background="#8FFF"
+                        android:textColor="#FFFFFF"
+                        android:text=" Dua In English
+                   Inni wajjahtu wajhiya lillazi fataras samawaati wal arda hanifaw wa maaa ana minal mushrikeen. Inna salaati wanusuki wa mahyaya wamamati lillahi rabbil a&apos;lameen. La sharika lahu wabizaalika umirtu wa ana minal muslimeen. Allahumma minka walak. An ……………………… Bismillahi Allahu Akbar ( Note : After )An)عَنْ mention the name of the person in whose name the sacrifice is made) "
+                        android:textSize="13dp"
+                        android:layout_gravity="center">
+                    </TextView>
+
+                </TableRow>
+
+
+
+
+                <TableRow>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:id="@+id/imageView"
+                        android:padding="5dip"
+                        android:src="@drawable/dua_qurbani"
+                        />
+                </TableRow>
+
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
